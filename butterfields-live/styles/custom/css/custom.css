@@ -1,0 +1,413 @@
+/* Copyright (C) YOOtheme GmbH, YOOtheme Proprietary Use License (http://www.yootheme.com/license) */
+
+/* ========================================================================
+   Use this file to add custom CSS easily
+ ========================================================================== */
+ 
+ /*Fonts*/
+ @font-face {
+    font-family: 'mistralregular';
+    src: url('/wp-content/uploads/mistral-webfont.eot');
+    src: url('/wp-content/uploads/mistral-webfont.eot?#iefix') format('embedded-opentype'),
+         url('/wp-content/uploads/mistral-webfont.woff') format('woff'),
+         url('/wp-content/uploads/mistral-webfont.ttf') format('truetype'),
+         url('/wp-content/uploads/mistral-webfont.svg#mistralregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+.uk-block-default + .uk-block-default {
+	border-top: none;	
+}
+ 
+ .font-alt {font-family: 'mistralregular'; }
+ 
+ h3.uk-h1.specials {
+	font-size: 45px;
+    line-height: 50px;
+ }
+ 
+ .uk-block-secondary .tm-panel-icon.uk-text-center > h3 [class*='uk-icon-'] {
+     color: #820c08;
+ }
+ 
+ .uk-block-secondary .tm-panel-icon.uk-text-center > h3::before, .uk-block-secondary .tm-panel-icon.uk-text-center > h3::after {
+    background: #FFFFFF;
+}
+
+.tm-sidebar-a .uk-panel-box .uk-panel-title {
+	color: #820c08;	
+}
+
+/* Logo size for centered navigation */
+.tm-navbar-center [class*='tm-logo'] { transform: scale(1.2); }
+
+/**CF7 Button Fix**/
+input.wpcf7-form-control.wpcf7-submit {
+    color: #fff;
+}
+
+
+
+/****Top Toolbar****/
+
+.tm-block-toolbar {
+
+}
+
+
+
+/*end toolbar*/
+
+
+/****Contact Forms****/
+
+.uk-form-icon span input, .uk-form-icon span select {
+    text-indent: 40px;
+}
+
+span.wpcf7-form-control-wrap.date:before {
+    content: "\f073";
+    font-family: FontAwesome;
+    position: absolute;
+    height: 40px;
+    width: 40px;
+    top: 0;
+    z-index: 979;
+}
+
+input#date {
+    text-indent: 20px;
+}
+
+select#time:before, span.wpcf7-form-control-wrap.time:before {
+    content: "\f017";
+    font-family: FontAwesome;
+	    position: absolute;
+    top: 0;
+    z-index: 979;
+	    height: 40px;
+    width: 40px;
+}
+
+input#person:before, span.wpcf7-form-control-wrap.persons:before {
+    content: "\f007";
+    font-family: FontAwesome;
+	    position: absolute;
+    top: 0;
+    z-index: 979;
+	    height: 40px;
+    width: 40px;
+}
+
+input#name:before, span.wpcf7-form-control-wrap.name:before {
+    content: "\f05a";
+    font-family: FontAwesome;
+	    position: absolute;
+    top: 0;
+    z-index: 979;
+	    height: 40px;
+    width: 40px;
+}
+
+input#email:before,span.wpcf7-form-control-wrap.email:before {
+    content: "\f0e0";
+    font-family: FontAwesome;
+	    position: absolute;
+    top: 0;
+    z-index: 979;
+	    height: 40px;
+    width: 40px;
+}
+
+input#phone:before, span.wpcf7-form-control-wrap.phone:before {
+    content: "\f095";
+    font-family: FontAwesome;
+	    position: absolute;
+    top: 0;
+    z-index: 979;
+	    height: 40px;
+    width: 40px;
+}
+
+/****Article Titles***/
+ 
+ article.uk-article {
+ position: relative;
+    min-height: 150px; 
+ padding-bottom: 55px;
+}
+
+.page h1.uk-article-title {
+ position: absolute;
+    bottom: 0;
+    left: auto;
+    font-size: inherit;
+    color: inherit;
+    margin: 0px;
+	text-transform:capitalize;
+}
+
+h2.uk-article-title {
+    margin-top: 0px;
+}
+
+
+
+
+/****Home Slider***/
+
+.uk-slideshow .uk-button {
+		
+}
+
+.tm-slideshow-fullscreen .uk-cover-background {
+    opacity: 0.8;
+}
+
+
+
+/****Home Menu****/
+.home .tm-subnav-large .uk-subnav > li > * {
+
+}
+
+/*end menu*/
+
+/***Custom Blog Widget***/
+
+.meta-custom {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+}
+
+p.uk-article-meta.custom {
+	margin-top: 0px;
+	margin-bottom: 0px;	
+	text-align: left;
+}
+
+.uk-article-meta.custom {
+    text-align: center;
+}
+
+.date-meta {
+    font-size: 25px;
+    font-weight: 700;
+}
+
+.home-blog-slideset .uk-panel-body {
+	padding-bottom: 0px;	
+}
+
+
+/****Home Page Events****/
+
+.home-events ul.uk-slideshow {
+   /* height: 200px !important;
+    width: auto !important;*/
+}
+
+.home-events .uk-slideshow > li {
+	height: 238px !important
+		
+}
+
+.home .tm-bottom-a i.uk-icon-calendar, .home .tm-bottom-a .uk-text-primary{color: #820c08 !important;}
+
+.home .tm-bottom-a .tm-panel-icon.uk-text-center > h3::after, .home .tm-bottom-a .tm-panel-icon.uk-text-center > h3::before {
+	background: #FFFFFF;	
+}
+
+.home-events .uk-position-bottom {
+    bottom: -50px;
+    left: auto;
+    right: auto;
+    min-width: 1120px;
+	}
+	
+.home-events .uk-panel-box {
+    border: none;
+}
+
+.home-events .event-counter {
+    height: inherit;
+}
+
+.home-events .event-counter > div {
+    height: inherit;
+	    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+
+
+.home-events li .uk-grid {
+	    height: inherit;
+}
+
+.scd-unit-horz{
+	margin: 5px;
+    background: rgba(103, 102, 102, 0.2);
+    padding: 5px;
+}
+
+div[id^="smartcountdown-"] {	
+	/*width: 75px;*/
+    overflow: hidden;
+    /*display: inline-block;*/
+}
+
+div[id^="smartcountdown-"][id*="-days"] {
+	position: relative;
+    
+}
+
+div[id^="smartcountdown-"][id*="-hours"] {
+	position: relative;
+    
+}
+
+div[id^="smartcountdown-"][id*="-minutes"] {
+	position: relative;
+    clear: both;   
+}
+
+div[id^="smartcountdown-"][id*="-seconds"] {
+	position: relative;
+    clear: right;
+}
+
+div[id^="smartcountdown-"][id*="-seconds"] .scd-label-row {
+	text-align: center;
+	clear: left;	
+}
+
+.scd-label-row {
+	text-align: center;
+	clear: left;	
+}
+
+
+@media (max-width: 768px) {
+	.home-events .event-counter > div, .home-events .event-counter {height: auto;}	
+	.home-events .uk-position-bottom {display: none;}
+}
+
+/**end home events slider**/
+
+
+/***Event List Home Page***/
+ol.tribe-list-widget {
+    padding-left: 0px;
+}
+
+/***Specials List Home Page***/
+
+.su-posts-default-loop .su-post-thumbnail {
+	height: auto !important;	
+}
+
+.su-posts-default-loop .su-post {
+    margin-bottom: 5px !important;
+    line-height: normal !important;
+}
+
+
+/***Home Video Bottom***/
+
+
+.home .tm-slideshow-secondary .uk-slideshow > li {
+    height: 550px !important;
+}
+ 
+ 
+ 
+ /***Events Custom CSS****/
+ 
+ .single-tribe_events .tribe-events-content {
+	display: -webkit-box; 
+ }
+ 
+ a.tribe-events-gcal, a.tribe-events-ical {
+	display: none;
+    visibility: hidden;
+}
+
+span.tribe-events-cost {
+	color: #13202e;
+	font-family: 'Architects Daughter';	
+}
+
+.tribe-events-list .tribe-events-event-image {
+	width: auto;	
+}
+ 
+ /*end events css*/
+ 
+ /***Price Fixe Menu***/
+ 
+ .fixe .uk-panel-badge.uk-badge {
+    font-size: 25px;
+    line-height: 40px;
+}
+ 
+ /*end pirce fixe*/
+ 
+ 
+ /*****Catering Menus****/
+.catering-accordian .uk-panel-badge {
+    font-weight: bold;
+	text-align:right;
+}
+
+.catering-accordian .uk-panel-title{
+	color: #820c08 !important;
+	font-weight: 400;
+}
+
+h3.uk-accordion-title.uk-active {
+    border: 1px solid #ededf0;
+    border-bottom: none;
+	margin-bottom: 0px;
+}
+
+.uk-accordion-content.uk-active {
+	border: 1px solid #ededf0;
+    border-top: none;  
+	padding: 20px 25px 10px 25px;
+}
+
+.uk-accordion-content.uk-active h3:nth-child(1) {
+    font-weight: 400;
+}
+ 
+ /*end catering*/
+ 
+ 
+ 
+ /***Faded Overlay****/
+.uk-panel-box-overlay {
+	opacity: 0.9;		
+}
+
+
+
+/***Specials Inner Pages***/
+.custom-main .uk-container {
+    padding: 40px;
+    background: #fff;
+}
+
+.post-type-archive-tribe_events .uk-block-muted {
+    /*background: #7F0606;*/
+}
+
+.page-id-907 .uk-block-muted, .custom-main {
+    background-image: url('/wp-content/uploads/terracotta-9.jpg');
+}
+
+.page-id-805 .uk-block-muted { 
+	background: #7F0606;
+}

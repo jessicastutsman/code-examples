@@ -1,0 +1,17 @@
+.uk-search-field {
+	border-bottom:1px solid #3c3c3d;
+}
+
+.uk-navbar-nav > li > a:after {
+	bottom: 7px;	
+	background: #f0f2f6;
+}
+
+.uk-position-static {
+	position: static!important;	
+}
+
+
+.tm-page-title-false .tm-content>.uk-article>.uk-article-title {
+	display: inherit;	
+}

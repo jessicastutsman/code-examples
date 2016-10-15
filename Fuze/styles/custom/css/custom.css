@@ -1,0 +1,81 @@
+/* Copyright (C) YOOtheme GmbH, YOOtheme Proprietary Use License (http://www.yootheme.com/license) */
+
+/* ========================================================================
+   Use this file to add custom CSS easily
+ ========================================================================== */
+
+
+/**nav bar**/
+.uk-sticky-placeholder {
+	z-index: 9999;	
+	top: auto;
+}
+
+.tm-toolbar {
+  height: 40px;
+  padding: 10px 40px;
+  box-sizing: border-box;
+  background-color: rgba(0,0,0,0.65);
+  color: #fff;
+}
+
+
+
+/****Home Services****/
+
+.home-services .uk-overlay.uk-overlay-hover:hover .uk-overlay-spin {
+    transform: rotateY(180deg);
+    box-shadow: -5px 5px 5px #aaa;
+}
+
+.home-services .uk-overlay-panel {
+    transform-style: preserve-3d;
+    transition: all 1.0s linear;
+}
+
+.home-services .uk-overlay-background {
+    background: rgb(158, 1, 1);
+	padding: 0px;
+    width: 100%;
+    height: 100%;
+    position: fixed;
+}
+
+.home-services .uk-icon-chain:before {
+    font-family: FontAwesome;
+	border: 2px solid #FFF;
+    border-radius: 50%;
+    width: 45px;
+    height: 45px;
+    line-height: 48px;
+    transition-duration: .2s;
+    font-size: 20px;
+	display: inline-block;
+	color: #fff;
+}
+
+.home-services .uk-icon-chain:hover:before {
+	background-color: #fff;
+	color: #000;	
+}
+
+.fade {
+	position: relative;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+
+.home-services .uk-panel {
+	background: #ffffff;
+    color: #686c70;
+    box-shadow: 0 9px 20px rgba(0, 0, 0, 0.06), 0 2px 3px rgba(0, 0, 0, 0.04);
+	/*-webkit-transition: all 1s ease-in-out;
+    transition: all 1s ease-in-out;*/
+}
+
+.home-services .uk-panel:hover {
+    /*top: -5px;*/
+}
+
+/*end home services*/

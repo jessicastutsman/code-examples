@@ -1,0 +1,49 @@
+/***Flex Fix****/
+ .uk-flex {
+	display: -webkit-flex;
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: flex;
+ }
+/**Titles**/
+
+body[class*=" page-"]:not(.home) article.uk-article {
+	position: relative;
+	min-height: 150px; 
+	padding-bottom: 55px !important;
+}
+
+body[class*=" page-"]:not(.home) h1.uk-article-title {
+	position: absolute;
+    bottom: 0;
+    left: auto;
+    font-size: inherit;
+	line-height: normal;
+    color: inherit;
+    margin: 0px;
+	padding-bottom: 0px;
+}
+
+body[class*=" page-"] h1.uk-article-title {
+	position: absolute;
+    bottom: 0;
+    left: auto;
+    font-size: inherit;
+	line-height: normal;
+    color: inherit;
+    margin: 0px;
+	padding-bottom: 0px;
+}
+
+body[class*=" page-"]:not(.home) article.uk-article h1 + h2 {
+	margin-top: auto;
+	margin-bottom: 2rem;	
+}
+
+
+/***CF7 Button***/
+
+.wpcf7-submit {
+	color: #fff !important; 	
+}
