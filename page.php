@@ -13,8 +13,8 @@
 			the_title();
 		} ?></h1>
 						
-		<?php if ($this['config']->get('page_title') !== '1') : ?>
-        <h2 class="uk-article-title"><?php the_title(); ?></h2>	
+	<?php if ($this['config']->get('page_title') !== '1') : ?>
+        	<h2 class="uk-article-title"><?php the_title(); ?></h2>	
         <?php endif; ?>
 
         <?php the_content(''); ?>
