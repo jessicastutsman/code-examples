@@ -1,6 +1,6 @@
 <?php
 /*
-Plugin Name: DDG Functionality Custom Plugin
+Plugin Name: Custom Functionality Plugin
 Description: Plugin that does all the things
 */
 
