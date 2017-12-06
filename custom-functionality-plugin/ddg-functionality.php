@@ -1,7 +1,7 @@
 <?php
 /*
 Plugin Name: DDG Functionality Custom Plugin
-Description: Plugin is does all the things
+Description: Plugin that does all the things
 */
 
 
@@ -18,7 +18,7 @@ function execute_php($html){
      return $html;
 }
 
-
+//add RSC support for Contact Form 7
 add_filter( 'wpcf7_use_really_simple_captcha', '__return_true' );
 
 
